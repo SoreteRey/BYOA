@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct Constants {
+    
+    struct EmojiURL {
+        static let baseURL = "https://emojihub.yurace.pro"
+        static let apiPath = "/api"
+        static let emojiPath = "/all"
+    }
+}
